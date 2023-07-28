@@ -1,0 +1,29 @@
+.icons{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color: white;
+}
+.childContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding:11px;
+}
+.container{
+    background-color: rgb(214, 22, 22);
+    margin: 0;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.7);
+    
+}
+.logo{
+    cursor:pointer
+}
+.add{
+    cursor:pointer;
+}
+.logOut{
+    cursor:pointer
+}

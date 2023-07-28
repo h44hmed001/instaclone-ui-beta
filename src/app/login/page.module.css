@@ -1,0 +1,60 @@
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .centContainer{
+    display: flex;
+    height: 80%;
+    width: 80%;
+  }
+  .animation{
+    width: 100%;
+   
+  }
+  .form{
+   
+  
+  }
+  .insta{
+    width: 100%;
+    height:100%;
+  }
+  .login{
+    width: 100%;
+  
+  }
+  .line{
+    width:40px;
+    height:1px;
+    background-color: rgb(148, 145, 145);
+  }
+  .orBlock{
+    display: flex;
+    align-items: center;
+    gap:5px;
+  }
+  .googleBlock{
+    display: flex;
+    align-items: center;
+  
+  }
+  .button{
+    background-color: #3F77F3;
+    outline:none;
+    border: none;
+    cursor:pointer
+  }
+  .button:disabled{
+    background-color: #3F77F3;
+    color:rgb(221, 221, 221);
+    cursor:default;
+  }
+  .signUpLink{
+    color: #3F77F3;
+    cursor: pointer;
+    text-decoration: none;
+  }
